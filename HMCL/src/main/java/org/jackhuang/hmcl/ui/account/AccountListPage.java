@@ -65,6 +65,7 @@ public final class AccountListPage extends DecoratorAnimatedPage implements Deco
 
     static {
         // String property = System.getProperty("hmcl.offline.auth.restricted", "auto");
+        // Allows offline login no matter what
         String property = "false";
 
         if ("false".equals(property)
